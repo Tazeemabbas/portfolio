@@ -290,21 +290,14 @@
 }
 /* ⭐⭐⭐ MOBILE HERO REAL FIX */
 
-@media (max-width:768px){
+@media(max-width:768px){
 
   .heroSection{
-    justify-content:flex-start;     /* stop vertical centering */
-    padding-top:110px;              /* space for navbar */
-    gap:25px;                       /* smaller spacing */
-  }
-
-  .heroSectionLeftPart{
-    order:1;
-  }
-
-  .heroSectionRightPart{
-    order:2;
-    margin-top:5px;                 /* keeps profile just below text */
+    min-height:auto;
+    padding-top:120px;
+    padding-bottom:40px;
+    justify-content:flex-start;
+    gap:60px;
   }
 
 }
