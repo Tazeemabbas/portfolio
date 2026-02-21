@@ -48,7 +48,6 @@ Skills & <span className="spanSkill">Abilities</span>
 
 <div className="bar"><div className="info"><span className="skilliconspans">React</span></div></div>
 
-<div className="bar"><div className="info"><span className="skilliconspans"></span></div></div>
 
 </div>
 </div>
