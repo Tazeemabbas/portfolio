@@ -10,7 +10,7 @@
   min-height: 100vh;
   /* padding: 120px 20px 60px; */
   width: 100%;
-  overflow: hidden; 
+  overflow: visible; 
 }
 
 .heroSectionLeftPart {
@@ -152,8 +152,8 @@
 
 .blob2 {
   top: auto;
-  bottom: -10%;
-  right: -10%;
+  bottom: -5%;
+  right: -5%;
   left: auto;
   animation: move2 15s ease-in-out infinite alternate;
 }
