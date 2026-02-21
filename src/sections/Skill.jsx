@@ -42,6 +42,14 @@ Skills & <span className="spanSkill">Abilities</span>
 
 <div className="bar"><div className="info"><img src={mysql}/><span className="skilliconspans">MySQL</span></div></div>
 
+<div className="bar"><div className="info"><span className="skilliconspans">Node Js</span></div></div>
+
+<div className="bar"><div className="info"><span className="skilliconspans">MongoDB</span></div></div>
+
+<div className="bar"><div className="info"><span className="skilliconspans">React</span></div></div>
+
+<div className="bar"><div className="info"><span className="skilliconspans"></span></div></div>
+
 </div>
 </div>
 
