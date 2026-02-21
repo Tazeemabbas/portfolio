@@ -1,0 +1,91 @@
+/* ===== Layout ===== */
+
+.navbar{
+background:rgb(255,241,222);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px clamp(20px,5vw,80px);
+position:relative;
+z-index:10;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+list-style:none;
+transition:right .3s ease;
+}
+
+.hamburger{
+display:none;
+font-size:28px;
+cursor:pointer;
+}
+
+/* ===== Typography ===== */
+
+.brand a{
+font-size:1.5rem;
+font-weight:bold;
+text-decoration:none;
+color:#002057;
+font-family:"Segoe UI", Tahoma, Verdana, sans-serif;
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.nav-links li a{
+text-decoration:none;
+font-size:1.125rem;
+font-weight:700;
+color:#333;
+transition:color .25s ease;
+}
+
+.nav-links li a:hover
+
+header{
+position:fixed;
+width:100%;
+background:#fff1df;
+z-index:1000;
+}
+
+/* ===== Mobile ===== */
+
+@media (max-width:768px){
+
+.hamburger{
+display:block;
+}
+
+.nav-links{
+flex-direction:column;
+position:fixed;
+top:67px;
+right:-100%;
+width:220px;
+height:100vh;
+background:rgb(255,241,222);
+padding-top:20px;
+}
+
+.nav-links.active{
+right:0;
+}
+
+.nav-links li{
+text-align:center;
+margin:15px 0;
+}
+
+.brand a{
+font-size:1.3rem;
+}
+
+.nav-links li a{
+font-size:1rem;
+}
+}

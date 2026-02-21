@@ -1,0 +1,46 @@
+/* ===== GLOBAL RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+}
+
+/* ===== FIXED HEADER ===== */
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff1df;
+  z-index: 1000;
+}
+
+/* ===== GLOBAL RESPONSIVE TYPOGRAPHY ===== */
+
+/* tablets */
+@media (max-width:900px){
+  html{
+    font-size:15px;
+  }
+}
+
+/* mobiles */
+@media (max-width:600px){
+  html{
+    font-size:14px;
+  }
+}
+
+/* very small phones */
+@media (max-width:400px){
+  html{
+    font-size:13px;
+  }
+}

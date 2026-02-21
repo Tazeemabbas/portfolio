@@ -1,0 +1,135 @@
+/* ===== EDUCATION SECTION ===== */
+
+.EducationSection{
+  background:#e5ecfb;
+  width:100%;
+  padding:120px 20px 80px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+}
+
+/* description text */
+
+.EducationSection p{
+  max-width:800px;
+  margin:20px auto 40px;
+}
+
+/* heading color */
+
+.headingEducationColor{
+  color:rgb(115,3,167);
+}
+
+/* container */
+
+.collegeContainer{
+  width:100%;
+  max-width:1000px;
+  display:flex;
+  flex-direction:column;
+  gap:35px;
+}
+
+/* card */
+
+.box{
+  display:flex;
+  background:white;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 8px 22px rgba(0,0,0,.12);
+  transition:.35s;
+}
+
+.box:hover{
+  transform:translateY(-6px);
+  box-shadow:0 14px 30px rgba(0,0,0,.18);
+}
+
+/* image */
+
+.CollegePhoto{
+  width:220px;
+  height:100%;
+  object-fit:cover;
+  flex-shrink:0;
+}
+
+/* content */
+
+.content{
+  padding:24px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:6px; 
+}
+
+.content p{
+  margin:0;
+  color:#444;
+  font-size:.95rem;
+}
+
+/* title */
+
+.Cname{
+  color:#012970;
+  font-size:1.4rem;
+  margin-bottom:6px;
+  font-weight:700;
+}
+
+/* year */
+
+.Cyear{
+  margin-top:6px;
+  color:#1a7f00;
+  font-size:.95rem;
+  font-weight:600;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* tablets */
+
+@media(max-width:900px){
+
+  .CollegePhoto{
+    width:200px;
+  }
+
+}
+
+/* ⭐ MOBILE STACK FIX (VERY IMPORTANT) */
+
+@media(max-width:700px){
+
+  .box{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .CollegePhoto{
+    width:100%;
+    height:180px;
+  }
+
+  .content{
+    text-align:center;
+  }
+
+}
+
+/* ⭐ SMALL PHONE FONT CONTROL (your new rule) */
+
+@media(max-width:500px){
+
+  .Cname{ font-size:1.1rem; }
+  .Cyear{ font-size:.9rem; }
+
+}
