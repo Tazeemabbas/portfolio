@@ -294,10 +294,10 @@
 
   .heroSection{
     min-height:auto;
-    padding-top:150px;
+    padding-top:160px;
     padding-bottom:40px;
     justify-content:flex-start;
-    gap:60px;
+    gap:80px;
   }
 
 }
