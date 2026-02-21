@@ -1,5 +1,5 @@
 import "../styles/education.css"
-import kle from "../assets/KLE.jpg"
+import kle from "../assets/KLE.jpeg"
 import oxford from "../assets/Oxford.jpg"
 
 export default function Education(){

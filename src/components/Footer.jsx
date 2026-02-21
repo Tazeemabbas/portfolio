@@ -1,58 +1,108 @@
-import "../styles/footer.css"
-export default function Footer(){
+import "../styles/footer.css";
+export default function Footer() {
+  return (
+    <footer>
+      <div className="footersection">
+        <div className="footerbox">
+          <h3 className="footerHeading">Tazeem's Portfolio</h3>
+          <p className="footerpara">
+            Thank you for visiting my personal portfolio website.
+          </p>
+        </div>
 
-return(
+        <div className="footerbox">
+          <h3 className="footerHeading">Quick Links</h3>
 
-<footer>
+          <a href="#Home" className="footerLinks">
+            <i className="bi bi-arrow-right-circle-fill"></i> Home
+          </a>
+          <a href="#About" className="footerLinks">
+            <i className="bi bi-arrow-right-circle-fill"></i> About
+          </a>
+          <a href="#Skills" className="footerLinks">
+            <i className="bi bi-arrow-right-circle-fill"></i> Skills
+          </a>
+          <a href="#Education" className="footerLinks">
+            <i className="bi bi-arrow-right-circle-fill"></i> Education
+          </a>
+          <a href="#Contact" className="footerLinks">
+            <i className="bi bi-arrow-right-circle-fill"></i> Contact
+          </a>
+        </div>
 
-<div className="footersection">
+        <div className="footerbox">
+          <h3 className="footerHeading">Contact Info</h3>
 
-<div className="footerbox">
-<h3 className="footerHeading">Tazeem's Portfolio</h3>
-<p className="footerpara">
-Thank you for visiting my personal portfolio website.
-</p>
-</div>
+          <p>
+            <i className="bifootericon bi-telephone-fill"></i> +91 8722746569
+          </p>
+          <p>
+            <i className="bifootericon bi-envelope-fill"></i>{" "}
+            tazeemabbasa921@gmail.com
+          </p>
+          <p>
+            <i className="bifootericon bi-geo-alt-fill"></i> Hyderabad
+          </p>
 
-<div className="footerbox">
-<h3 className="footerHeading">Quick Links</h3>
+          <ul className="social-list-footer">
+            <li>
+              <a
+                href="https://www.facebook.com/share/1Am31gZFhC/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="bi bi-facebook"></i>
+              </a>
+            </li>
 
-<a href="#Home" className="footerLinks"><i className="bi bi-arrow-right-circle-fill"></i> Home</a>
-<a href="#About" className="footerLinks"><i className="bi bi-arrow-right-circle-fill"></i> About</a>
-<a href="#Skills" className="footerLinks"><i className="bi bi-arrow-right-circle-fill"></i> Skills</a>
-<a href="#Education" className="footerLinks"><i className="bi bi-arrow-right-circle-fill"></i> Education</a>
-<a href="#Contact" className="footerLinks"><i className="bi bi-arrow-right-circle-fill"></i> Contact</a>
+            <li>
+              <a
+                href="https://x.com/Tazeem_21?t=_ysKhhqhD-Z4gaVN_pfzxA&s=09"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="bi bi-twitter-x"></i>
+              </a>
+            </li>
 
-</div>
+            <li>
+              <a
+                href="https://www.instagram.com/tazeem_21_?igsh=dHAzcnV2c20zNzV0"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="bi bi-instagram"></i>
+              </a>
+            </li>
 
-<div className="footerbox">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/tazeemabbas-aiyanagudi-81b757356"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="bi bi-linkedin"></i>
+              </a>
+            </li>
 
-<h3 className="footerHeading">Contact Info</h3>
+            <li>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">
+                <i className="bi bi-github"></i>
+              </a>
+            </li>
 
-<p><i className="bifootericon bi-telephone-fill"></i> +91 8722746569</p>
-<p><i className="bifootericon bi-envelope-fill"></i> tazeemabbasa921@gmail.com</p>
-<p><i className="bifootericon bi-geo-alt-fill"></i> Hyderabad</p>
+            <li>
+              <a href="http://t.me/Tazeema21" target="_blank" rel="noreferrer">
+                <i className="bi bi-telegram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-<ul className="social-list-footer">
-
-<li><a href="#"><i className="bi bi-facebook"></i></a></li>
-<li><a href="#"><i className="bi bi-twitter-x"></i></a></li>
-<li><a href="#"><i className="bi bi-instagram"></i></a></li>
-<li><a href="#"><i className="bi bi-linkedin"></i></a></li>
-<li><a href="#"><i className="bi bi-github"></i></a></li>
-<li><a href="#"><i className="bi bi-telegram"></i></a></li>
-
-</ul>
-
-</div>
-
-</div>
-
-<div className="copyright">
-<p>Designed With ❤️ By Tazeem</p>
-</div>
-
-</footer>
-
-)
+      <div className="copyright">
+        <p>Designed With ❤️ By Tazeem</p>
+      </div>
+    </footer>
+  );
 }

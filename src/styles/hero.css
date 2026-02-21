@@ -8,9 +8,9 @@
   justify-content: center;
   gap: 40px;
   min-height: 100vh;
-  padding: 120px 20px 60px;
+  /* padding: 120px 20px 60px; */
   width: 100%;
-  overflow: hidden; /* ⭐ THIS FIXES RIGHT SPACE */
+  overflow: hidden; 
 }
 
 .heroSectionLeftPart {
@@ -224,10 +224,10 @@
 /* ================= TABLET ================= */
 
 @media (min-width: 768px) {
-  .heroSection {
+  .heroSection { 
     flex-direction: row;
     text-align: left;
-    padding: 120px 6vw 60px;
+  
   }
 
   .textContainer {
@@ -287,4 +287,24 @@
     max-width: 180px;
     
   }
+}
+/* ⭐⭐⭐ MOBILE HERO REAL FIX */
+
+@media (max-width:768px){
+
+  .heroSection{
+    justify-content:flex-start;     /* stop vertical centering */
+    padding-top:110px;              /* space for navbar */
+    gap:25px;                       /* smaller spacing */
+  }
+
+  .heroSectionLeftPart{
+    order:1;
+  }
+
+  .heroSectionRightPart{
+    order:2;
+    margin-top:5px;                 /* keeps profile just below text */
+  }
+
 }

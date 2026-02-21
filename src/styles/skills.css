@@ -25,6 +25,10 @@
   margin-bottom:40px;
 }
 
+.headingSkillSection i{
+ margin-right: 20px;
+}
+
 .spanSkill{
   color:rgb(255,230,0);
 }
