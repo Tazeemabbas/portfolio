@@ -25,7 +25,7 @@ export default function Hero() {
           </h2>
 
           <p>
-            <span>Fullstack Developmer</span>
+            <span>Fullstack Developer</span>
           </p>
 
           <a href="#About" className="aboutbtn">
